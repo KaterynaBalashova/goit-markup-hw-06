@@ -676,6 +676,10 @@ body {
     fill: #4D5AE5;
 }
 
+.textarea-wraper {
+    margin-bottom: 16px;
+}
+
 .modal-textarea {
     padding: 8px 16px;
     width: 100%;
@@ -691,6 +695,23 @@ body {
 
 .modal-textarea:focus {
     border-color: #4D5AE5;
+}
+
+.checkbox-wraper {
+    margin-bottom: 24px;
+}
+
+.check-text::before {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+}
+
+.check-text {
+    display: flex;
 }
 
 .send-btn {
